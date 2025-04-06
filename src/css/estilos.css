@@ -3,16 +3,14 @@ body {
   overflow: hidden;
 }
 /*pseudo elemento*/
-main::after{
-  content: 'TTT';
+main::after {
+  content: "";
   position: fixed;
   top: 0;
   left: 0;
   min-height: 100vh;
   width: 80vh;
-
-  /* CSS Gradient site para criar gradient */
-  background: linear-gradient(92deg, #000 45%, rgba(0, 0, 0, 0) 75%) no-repeat;
+  background: linear-gradient(92deg, #000 25%, rgba(0, 0, 0, 0) 75%) no-repeat;
 }
 
 main .personagem {
@@ -43,7 +41,7 @@ main .personagem .imagem {
   z-index: 1;
 }
 
-.conteudo .nome-personagem{
+.conteudo .nome-personagem {
   color: #ffffff;
   font-size: 48px;
   font-family: "Secular One";
@@ -51,7 +49,7 @@ main .personagem .imagem {
   margin-bottom: 20px;
 }
 
-.conteudo .descricao{
+.conteudo .descricao {
   color: white;
   font-family: "Rubik";
   font-size: 16px;
@@ -87,23 +85,28 @@ main .personagem .imagem {
   border-radius: 50%;
 }
 
-.botoes .botao.selecionado{
+.botoes .botao.selecionado {
   transform: scale(1.2);
   box-shadow: 0 0 10px hsl(0, 0%, 85%);
 }
 
+.botoes .botao.cyberstorm.selecionado {
+  box-shadow: 0 0 10px #0408f7;
+}
+
+
 .botoes .botao.codepixie.selecionado {
-  box-shadow: 0 0 10px #9747FF;
+  box-shadow: 0 0 10px #9747ff;
 }
 
-.botoes .botao.hexblade.selecionado{
-  box-shadow: 0 0 10px #FFA947;
+.botoes .botao.hexblade.selecionado {
+  box-shadow: 0 0 10px #ffa947;
 }
 
-.botoes .botao.neonpulse.selecionado{
-  box-shadow: 0 0 10px #E4309A;
+.botoes .botao.neonpulse.selecionado {
+  box-shadow: 0 0 10px #e4309a;
 }
 
-.botoes .botao.codebreak.selecionado{
-  box-shadow: 0 0 10px #FFF047;
+.botoes .botao.codebreak.selecionado {
+  box-shadow: 0 0 10px #fff047;
 }
